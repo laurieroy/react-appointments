@@ -1,10 +1,10 @@
 {
   "name": "appointments",
   "version": "1.0.0",
-  "description": "",
+  "description": "A beauty salong scheduler",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest --watchAll"
   },
   "repository": {
     "type": "git",
@@ -22,5 +22,8 @@
     "@babel/runtime": "^7.17.0",
     "react": "^16.14.0",
     "react-dom": "^16.14.0"
+  },
+  "jest":{
+    "testEnvironment": "jsdom"
   }
 }
